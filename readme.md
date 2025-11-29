@@ -25,3 +25,10 @@ The project is a simple starter project for React Native.
 
 ## Chapter-3/21 - Sloving the Key Issue
 
+## Chapter-4/25 - Button Types
+
+## Chapter-4/26 - Adding onPress Handler
+
+## Chapter-4/27 - Touchable Opacity in Action
+
+## Chapter-4/28 - Navigation inside touchable opacity

@@ -7,20 +7,23 @@ import ListScreen from './src/screens/ListScreen';
 
 const Stack = createStackNavigator();
 
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator
-        initialRouteName="List"
-        screenOptions={{
-          title: 'App',
-        }}
-      >
-        {/* <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Components" component={ComponentsScreen} /> */}
-        <Stack.Screen name="GettingStarted" component={GettingStarted} />
-        <Stack.Screen name="List" component={ListScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
+const AppNavigator = () => (
+  <Stack.Navigator
+    initialRouteName="Home"
+    screenOptions={{
+      headerShown: false,
+    }}
+  >
+    <Stack.Screen name="Home" component={HomeScreen} />
+    <Stack.Screen name="Components" component={ComponentsScreen} />
+    <Stack.Screen name="GettingStarted" component={GettingStarted} />
+    <Stack.Screen name="List" component={ListScreen} />
+  </Stack.Navigator>
+);
+
+export default () => (
+  <NavigationContainer>
+    <AppNavigator />
+  </NavigationContainer>
+);
+
