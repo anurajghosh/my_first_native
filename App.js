@@ -5,6 +5,7 @@ import ComponentsScreen from './src/screens/ComponentsScreen';
 import GettingStarted from './src/screens/GettingStarted';
 import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
+import CounterScreen from './src/screens/CounterScreen';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,7 @@ const AppNavigator = () => (
     <Stack.Screen name="GettingStarted" component={GettingStarted} />
     <Stack.Screen name="List" component={ListScreen} />
     <Stack.Screen name="Image" component={ImageScreen} />
+    <Stack.Screen name="Counter" component={CounterScreen} />
   </Stack.Navigator>
 );
 
