@@ -83,6 +83,10 @@ When creating a new screen:
    navigation.navigate('ScreenName')
    ```
 
+## Features
+
+- **Object Destruction**: Object destruction feature has been added to the project
+
 ## Windows-Specific Notes
 
 This project is being developed on Windows with PowerShell. When running shell commands:

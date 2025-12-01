@@ -4,6 +4,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import ComponentsScreen from './src/screens/ComponentsScreen';
 import GettingStarted from './src/screens/GettingStarted';
 import ListScreen from './src/screens/ListScreen';
+import ImageScreen from './src/screens/ImageScreen';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ const AppNavigator = () => (
     <Stack.Screen name="Components" component={ComponentsScreen} />
     <Stack.Screen name="GettingStarted" component={GettingStarted} />
     <Stack.Screen name="List" component={ListScreen} />
+    <Stack.Screen name="Image" component={ImageScreen} />
   </Stack.Navigator>
 );
 

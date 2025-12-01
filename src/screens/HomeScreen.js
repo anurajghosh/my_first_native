@@ -12,6 +12,10 @@ export default function HomeScreen({ navigation }) {
         title="Go to List Components" 
         onPress={() => navigation.navigate('List')}
       />
+      <Button
+        title="Go to Image Screen" 
+        onPress={() => navigation.navigate('Image')}
+      />
     </View>
   );
 }
