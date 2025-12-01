@@ -8,9 +8,10 @@ export default function HomeScreen({ navigation }) {
         title="Go to Components"
         onPress={() => navigation.navigate('Components')}
       />
-      <TouchableOpacity onPress={() => navigation.navigate('GettingStarted')}>
-        <Text style={styles.text}>Go to Getting Started</Text>
-      </TouchableOpacity>
+      <Button
+        title="Go to List Components" 
+        onPress={() => navigation.navigate('List')}
+      />
     </View>
   );
 }
