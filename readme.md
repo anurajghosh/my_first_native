@@ -33,4 +33,6 @@ The project is a simple starter project for React Native.
 
 ## Chapter-4/28 - Navigation inside touchable opacity
 
-## Chapter-4/29/30 - UseReducer Hook added to SquareScreen
+## Chapter-6/57/58 - UseReducer Hook added to SquareScreen
+
+## Chapter-6/59/60 - Adding a useReducer Hook to CounterScreen
