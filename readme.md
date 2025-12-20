@@ -36,3 +36,5 @@ The project is a simple starter project for React Native.
 ## Chapter-6/57/58 - UseReducer Hook added to SquareScreen
 
 ## Chapter-6/59/60 - Adding a useReducer Hook to CounterScreen
+
+## Chapter-6/61/62/63/64/65 - Adding InputText and showing it in TextScreen by using useState Hook
